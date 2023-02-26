@@ -1,0 +1,78 @@
+body {
+    background-color: #3a3a3a;
+    margin: auto;
+    width: 500px;
+    font-size: 20px;
+}
+/* Titre */
+h2 {
+    color:white;
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-size: 50px;
+}
+/* Contour */
+fieldset {
+    border-color: #adaf0a;
+    border-radius: 10px;
+}
+/* Client & Rendez-vous */
+legend:first-child {
+    color:#adaf0a;
+    font-family: Arial;
+    text-align: left;
+    font-weight: bolder;
+}
+/* Heure & Intervenante */
+legend {
+    color:#adaf0a;
+    font-family: Arial;
+    text-align: center;
+}
+/* Céline & Marie & Lucile */
+label {
+    color:#adaf0a;
+    font-family: 'Arial';
+}
+/* Nom/Prénom/Tel & heure */
+input,select {
+    background-color: #d5d5d5;
+    display: block;
+    border-radius: 15px;
+    border-style: none;
+    block-size: 30px;
+    width: 85%;
+    margin: auto;
+    margin-left: auto;
+}
+/* Heure */
+select {
+    width: 50%;
+}
+/* Valider le rendez-vous */
+input[type=submit] {
+    background-color: #adaf0a;
+    color: white;
+    font-family: 'Arial';
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 150px;
+    block-size: 55px;
+}
+/* Valider le rendez-vous hover */
+input[type=submit]:hover {
+    background-color: white;
+    color: #adaf0a;
+}
+input[type="radio"] {
+    position: relative;
+    height: 15px; 
+}
+/* Nom/Prénom/Tel & heure hover */
+input:hover, select:hover {
+    background-color: white;
+}
+input:active {
+    border-color: #adaf0a;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+    </style>
+</head>
+<body>
+    <H2>Salon bien-être</H2>
+        <fieldset>
+            <legend>Client</legend><br />
+            <input type="text" id="nom" name="Nom" required placeholder="Nom">
+            <br>
+            <input type="text" id="Prénom" name="Prénom" required placeholder="Prénom">
+            <br>
+            <input type="tel" id="tel" name="Tel" required placeholder="Tél 0123456789">
+            <br>
+        </fieldset>
+            <br>
+        <fieldset>
+            <legend>Rendez-vous</legend>
+            <br>
+                <input type="date">
+            <br>
+            <legend>Heure</legend>
+            <select name="heure" id="heure">
+                <option value="9H">9H00</option>
+                <option value="10H">10H00</option>
+                <option value="11H">11H00</option>
+                <option value="12H">12H00</option>
+                <option value="13H">13H00</option>
+                <option value="14H">14H00</option>
+                <option value="15H">15H00</option>
+                <option value="16H">16H00</option>
+                <option value="17H">17H00</option>
+            </select>
+            <br>
+            <legend>Intervenante</legend>
+                <input type="radio" id="Celine" name="contact" value="Celine">
+                <label for="Celine">Céline</label>
+                <input type="radio" id="Marie" name="contact" value="Marie">
+                <label for="Marie">Marie</label>
+                <input type="radio" id="Lucile" name="contact" value="Lucile"> 
+                <label for="Lucile">Lucile</label>
+        </fieldset>
+        <br /><br />
+        <input type="submit" value="Valider le RDV"/>
+    </form>
+</body>
+</html>
